@@ -64,9 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.logo{
+.greatidea{
 	position: absolute;
-	margin: 7px 0 0 1600px;
+	margin: 50px 0 0 1600px;
 }
 nav {
 	display:flex;
@@ -74,9 +74,11 @@ nav {
 	margin-top: 50px;
 	margin-right: 250px;
 	margin-bottom: 100px;
+	
 }
 a{
 	color: grey;
+	font-size: 20px;
 }
 .welcome{
 	display:flex;
@@ -195,8 +197,9 @@ footer{
 		display: flex;
 		flex-direction: column;
 		font-size: 25px;
-		margin: 30px 80px 0 80px;
-		width: 70%;
+		margin: 30px 60px 0 0px;
+		width: 60%;
+		max-width: 100%;
 	}
 	a{
 		border-bottom: solid 1px grey;
@@ -206,93 +209,51 @@ footer{
 		display: flex;
 		justify-content: center;
 		
-		align-content: center;
+		align-items: center;
 		margin-left: 15%;
 		padding: 10px;
 		text-decoration: none;
 		
 	}
-	.logo {
-		display: flex;
-		width: 45%;
-		margin: 0 0 0 600px;
-		padding: 0;
-		
+	.greatidea{
+	position: relative	
+	display:flex;
+	justify-content: center;
+	margin: 10px 500px 30px 0;
 	}
 	.welcome{
-		margin: 0px 0px 0px 25%;
-		padding-top: 40px;
-		border-bottom: solid 2px black;
-		width: 65%;
-		padding-bottom: 50px;
-	}
-	.infoOne{
 		display: flex;
-		flex-direction: column;
-		width: 60%; 
-		margin: 10px 0px 15px 25%;
-		border-top: 0;
-	}
-	.About{
-		margin-top: 50px;
-		margin-bottom: 50px;
-	}
-	.middle-img{	
-		margin: 0 0 0 15%;
-		display: flex;
+		margin-right: 25px;
 		justify-content: center;
-		width: 80%;
-		margin-bottom: 50px;
 	}
-	.infoTwo{
-		display: flex;
-		flex-direction: column;
-		width: 60%; 
-		margin: 10px 0px 15px 25%;
-		border-top: 0;
-		border-bottom: solid 2px black;
-		
-	}
-	.Product{
-		margin-top: 50px;
-	}
-	.Vision{
-		margin-top: 50px;
-	}
-	.footerindex{
-		margin: 0 0 35px 125px;
-		width: 50%
-	}
-	.copyright{
-	
-	margin: 50px 1000px 0px 0px;
-}
-	.snippet{
-		display: none;
-	}
+
 }	
 @media(max-width: 800px) {
-	.logo{
+	.greatidea{
 		display: flex;
 		align-content: center;
 		align-items: center;
-		margin: 100px 500px 0px 400px;
+		margin-left: 38vh;
+		margin-top: 5%;
 		padding: 0 0 0 0;
-		position: relative;
+		
 		border: 1 px black;
 		width: 50%;
 	}
 	nav {
-		margin: 0 0px 0 170px;
+		margin: 0px;
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
-		margin-top: 70px;
+		align-content: flex-start;
+		margin-top: 20vh;
+	
+		font-size: 155%;
 		
 	}
 	a{
 		text-decoration: none;
-		font-size: 35px;
+		
 	}
 	.snippet{
 		display: none;
@@ -300,24 +261,28 @@ footer{
 	.onDemand{
 		display: flex;
 		justify-content: center;
-		align-items: center;
-		margin: 0 0 0 250px;
-		font-size: 96px;
+		align-content: center;
+		margin-right: 30%;
+		font-size: 86px;
+
 	}
 	.startedButton{
-		margin: 0 0 200px 140px;
+		position: relative;
 		font-size: 20px;
 		padding: 10px 50px;
 		width: 200px;
-		margin-bottom: 50px;
+		margin: 0px 00px 30px 0px;
 	
 	}
 	.infoOne{
-		width:1000px;
-		margin: 0px 0px 10% 15%;
+		max-width: 100%;
+		margin: 0px 12px 10% 0%;
 		padding: 0 0 0 0;
-		font-size: 30px;
+		font-size: 20px;
 		border-top: solid 2px black;
+		width: 90vw;
+		display: flex;
+		justify-content: center;
 
 	}
 	.About{
@@ -326,18 +291,19 @@ footer{
 	}
 	.features{
 		margin-top: 30px;
+		margin-left: 70px;
 	}
 	.middle-img{
-		width: 1000px;
-		margin: 0 0 0 120px;
+		max-width: 100%;
+		margin: 0 0 0 0;
 		padding: 0 0 0 0;
 	}
 	.infoTwo{
-		
-		width:1000px;
-		margin: 50px 0px 10% 15%;
-		padding: 0 0 0 0;
-		font-size: 30px;
+		width: 95vw;
+		max-width: 100%;
+		margin: 50px 0px 10% 3%;
+		padding: 0 0 20px 0;
+		font-size: 20px;
 		border-top: solid 2px black;
 
 	}
@@ -358,7 +324,7 @@ footer{
 	}
 	.copyright{
 		margin-top: 50px;
-		margin-left: 3500px;
+		margin-left: 100px;
 		width: 50%;
 
 	}
